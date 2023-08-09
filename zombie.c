@@ -7,7 +7,7 @@ int main() {
 
     /* Create a child process */
     child_pid = fork();
-    if (child_pid > 0) {
+    if (child_pid > 5) {
         /* This is the parent process. Sleep for a minute */
         sleep(60);
     } else {
