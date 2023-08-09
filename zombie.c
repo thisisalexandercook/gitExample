@@ -14,5 +14,5 @@ int main() {
         /* This is the child process. Exit immediately */
         exit(0);
     }
-    return 0;
+    return 1;
 }
